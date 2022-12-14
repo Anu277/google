@@ -1,0 +1,100 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'poppins', sans-serif;
+    background-image: linear-gradient(120deg, rgba(106, 0, 255, 0.9) 33%, rgb(238, 0, 255) );
+    /* align-items: center; */
+    line-height:2;
+
+}
+
+div.form{
+    float:center ;
+    margin-top: 10px;
+}
+p{
+    width: auto;
+}
+h1.form_heading{
+    margin-left: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+input{
+    text-align: center;
+    height: 25px;
+    width: 200px;
+    border-radius: 7px;
+    border-width:0px;
+    outline: none;
+    background-color: rgba(106, 0, 255, 0.2);    
+}
+textarea{
+    background-color: rgba(106, 0, 255, 0.2);
+    height: 1%;
+    width: 80%;
+    border: 0px solid white;
+    border-radius: 10px;
+    outline: none;
+    padding:10px;
+    font-size: 120%;
+    
+    
+}
+input::placeholder{
+    padding: 5px;
+    text-align: left;
+    
+    
+}
+
+
+form{
+    
+    margin:auto;
+    margin-top:1% ;
+    min-width:280px ;
+    width: 50%;
+    /* justify-items: center; */
+    /* text-align: center; */
+    padding-left: 20px;
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid black;
+    /* margin:10px 510px ; */
+    border-radius: 15px;
+    box-shadow: 4px 4px 100px 2px rgb(74, 72, 76) ;
+    /* box-shadow: inset -2px 2px 10px rgb(74, 65, 65) ; */
+    
+}
+
+textarea.message{
+    text-align: left;
+}
+input:hover{
+    background-color: rgba(106, 0, 255, 0.5);
+}
+textarea:hover{
+    background-color: rgba(106, 0, 255, 0.5);
+}
+textarea:focus{
+    background-color: rgba(161, 60, 255, 0.787);
+}
+#submit{
+    cursor: pointer;
+    font-size: 120%;
+    width:auto;
+    height: auto;
+    text-align: center;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+#address{
+    height: 40px;
+}
+footer{
+    height: 200px;
+}
